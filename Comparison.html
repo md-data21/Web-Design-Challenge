@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Comparison Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Latitude</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll ml-auto"
+                        style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Data.html">Data</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Comparison.html">Comparison</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Plots
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="MaxTemp.html">Max Temperature</a></li>
+                                <li><a class="dropdown-item" href="Humidty.html">Humidity</a></li>
+                                <li><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
+                                <li><a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a></li>
+                            </ul>
+                        </li>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+<section>
+<!-- Title and Commentary -->
+<br>
+ <h1 class = "web_title">Comparisons: Latitude vs X</h1>
+ <p> Click any plot to get an in-depth analysis.</p>
+
+
+ <div class="row">
+     <div class = "col-md-6">
+         <h2 class ="comparison_titles">vs Cloudiness (%)</h2>
+         <a target="_blank" href="Cloudiness.html">
+             <img src="Visualizations/AllLatCloudiness.png" alt="Cloudy Map" class = "comparison_image">
+         </a>
+     </div>
+     <div class = "col-md-6">
+        <h2 class ="comparison_titles">vs Humidity (%)</h2>
+         <a target="_blank" href="Humidty.html">
+             <img src="Visualizations/AllLatHumidity.png" alt="Humidity Map" class ="comparison_image">
+         </a>
+     </div>
+ </div>
+ <div class="row">
+     <div class = "col-md-6">
+        <h2 class ="comparison_titles">vs Temperature (F)</h2>
+         <a href="MaxTemp.html">
+             <img target="_blank" src="Visualizations/AllLatTemp.png" alt="Tempurature Map" class ="comparison_image">
+         </a>
+     </div>
+     <div class = "col-md-6">
+        <h2 class ="comparison_titles">vs Wind Speed (MPH)</h2>
+         <a target="_blank" href="Wind_Speed.html">
+             <img src="Visualizations/AllLatWindSpeed.png" alt="Wind Map" class = "comparison_image">
+         </a>
+     </div>
+</div>
+</section>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+     crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+     integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+     crossorigin="anonymous"></script>
+   
+</body>
+</html>

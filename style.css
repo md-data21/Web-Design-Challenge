@@ -1,0 +1,27 @@
+.summary_image {
+    width: 250px;
+    height: 250px;
+}
+
+.landing_image{
+    width: 600px;
+    height: 400px;
+}
+
+.comparison_image{
+    width: 600px;
+}
+
+.individual_image{
+    width: 700px;
+}
+
+.comparison_titles{
+    color: darkblue;
+}
+
+web_title{
+    color: darkblue;
+    
+}
+
